@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TableRow>
+
+        <TextView
+            android:textSize="22sp"
+            android:text="Login"
+            />
+
+        <EditText
+            android:hint="Enter login"
+            android:layout_width="200dp"
+            android:textSize="22sp"
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:textSize="22sp"
+            android:text="Password"
+            />
+
+        <EditText
+            android:hint="Enter password"
+            android:layout_width="200dp"
+            android:textSize="22sp"
+            android:inputType="textPassword"
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:text="Connect"
+
+            android:layout_span="2"
+            />
+
+    </TableRow>
+
+</TableLayout>
